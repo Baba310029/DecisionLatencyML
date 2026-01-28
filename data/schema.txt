@@ -1,0 +1,17 @@
+# Core Identity
+user_id          : string   # Unique identifier per user
+decision_id      : integer  # Unique decision per user
+timestamp        : datetime # When the decision was made
+
+# Decision Context
+task_difficulty  : float    # 0 (easy) → 1 (hard)
+risk_level       : float    # 0 (no risk) → 1 (high risk)
+reward_value     : float    # 0 (low reward) → 1 (high reward)
+time_pressure    : float    # 0 (none) → 1 (extreme)
+
+# Decision Speed
+decision_time    : float    # Time taken to decide (in seconds)
+
+# Decision Outcome
+chosen_option    : string   # Option chosen by the user
+is_correct       : integer  # 1 = correct decision, 0 = wrong
