@@ -119,3 +119,10 @@ python src/generate_data.py
 python src/feature_engineering.py
 python src/clustering.py
 streamlit run app.py
+
+```
+
+## Demo video
+
+- Click on the link to watch the demo
+https://github.com/Baba310029/DecisionLatencyML/issues/1#issue-3866596611
